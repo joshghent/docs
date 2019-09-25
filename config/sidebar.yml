@@ -22,7 +22,7 @@ articles:
 
       - title: "Create a Tenant"
         url: "/getting-started/create-tenant"
-      
+
       - title: "Set Up An App"
         url: "/getting-started/set-up-app"
         children:
@@ -59,7 +59,7 @@ articles:
 
       - title: "Universal Login"
         url: "/universal-login"
-        children: 
+        children:
 
           - title: "New Experience"
             url: "/universal-login/new"
@@ -94,7 +94,7 @@ articles:
 
           - title: Auth0.js
             url: /libraries/auth0js/v9
-          
+
           - title: Cross-Origin Authentication
             url: /cross-origin-authentication
 
@@ -110,17 +110,17 @@ articles:
 
           - title: Native App
             url: /flows/guides/auth-code-pkce/add-login-auth-code-pkce
-            
+
       - title: Multi-Factor Authentication
         url: /multifactor-authentication
-        children: 
+        children:
 
           - title: Overview
             url: /multifactor-authentication
 
           - title: Factors
             url: /multifactor-authentication/factors
-            children: 
+            children:
 
               - title: Push
                 url: /multifactor-authentication/factors/push
@@ -164,7 +164,7 @@ articles:
 
               - title: "FAQ"
                 url: "/multifactor-authentication/api/faq"
-        
+
       - title: Silent Authentication
         url: /api-auth/tutorials/silent-authentication
 
@@ -173,7 +173,7 @@ articles:
 
       - title: Logout
         url: /logout
-        children: 
+        children:
 
             - title: Apps
               url: /logout/guides/logout-applications
@@ -209,7 +209,7 @@ articles:
       - title: Legal Identity Providers
         url: "/connections#legal-identities"
         hidden: true
-      
+
       - title: Database
         url: /connections/database
         children:
@@ -219,7 +219,7 @@ articles:
 
           - title: Your User Store
             url: /connections/database/custom-db
-            children: 
+            children:
 
               - title: Overview
                 url: /connections/database/custom-db/overview-custom-db-connections
@@ -227,7 +227,7 @@ articles:
 
               - title: Create Connections
                 url: /connections/database/custom-db/create-db-connections
-                hidden: true 
+                hidden: true
 
               - title: Scripts
                 url: /connections/database/custom-db/templates
@@ -245,7 +245,7 @@ articles:
       - title: Passwordless
         url: /connections/passwordless
         children:
-      
+
           - title: Implement Passwordless
             url: /connections/passwordless/guides/implement-passwordless
 
@@ -329,7 +329,7 @@ articles:
       - title: "How to Configure Core RBAC"
         url: "/authorization/guides/how-to"
         children:
-          
+
           - title: "Manage Roles"
             url: "/authorization/guides/manage-roles"
 
@@ -502,7 +502,7 @@ articles:
 
           - title: Deprovision Users
             url: /protocols/saml/saml-configuration/deprovision-users
-            
+
           - title: SAML Configurations for SSO Integrations
             url: /protocols/saml/saml-apps
 
@@ -537,13 +537,13 @@ articles:
 
       - title: Progressive Profiling
         url: /users/concepts/overview-progressive-profiling
-      
+
       - title: Using the Dashboard
         url: /users/guides/manage-users-using-the-dashboard
 
       - title: Using the API
         url: /users/guides/manage-users-using-the-management-api
-      
+
       - title: Link User Accounts
         url: /extensions/account-link
 
@@ -661,7 +661,7 @@ articles:
   - title: Extend & Integrate
     url: /extend-integrate
     children:
-      
+
       - title: Rules
         url: /rules
         children:
@@ -707,7 +707,7 @@ articles:
 
           - title: Deploy Rules with Github
             url: /extensions/github-deploy
-      
+
       - title: Hooks
         url: /hooks
         children:
@@ -762,7 +762,7 @@ articles:
 
       - title: Extensions
         url: /extensions
-      
+
       - title: Analytics Integrations
         url: /analytics/integrations
 
@@ -778,7 +778,7 @@ articles:
 ## ------------------------------------------------------------
 ## Monitor
 ## ------------------------------------------------------------
-  
+
   - title: Monitoring
     url: /monitoring
     children:
@@ -846,7 +846,7 @@ articles:
     children:
       - title: Deployment Options
         url: /getting-started/deployment-models
-      
+
       - title: Deploy Checklist
         url: /deploy/checklist
 
@@ -859,7 +859,7 @@ articles:
 
           - title: "Pre-Launch Tips"
             url: "/pre-deployment/prelaunch-tips"
-      
+
       - title: "Deploy CLI Tool"
         url: "/extensions/deploy-cli"
         children:
@@ -902,7 +902,7 @@ articles:
 
       - title: Basics
         url: /troubleshoot/basics
-      
+
       - title: Common Authentication Errors
         url: /libraries/error-messages
         children:
@@ -916,7 +916,7 @@ articles:
 
           - title: Authorization Extension
             url: /extensions/authorization-extension/v2/troubleshooting
-      
+
       - title: Multi-factor Authentication
         url: /multifactor-authentication/troubleshooting
 
@@ -929,7 +929,7 @@ articles:
       - title: Issues with...
         url: /troubleshoot/issues
 
-      - title: HTTP Archive (HAR) 
+      - title: HTTP Archive (HAR)
         url: /troubleshoot/har
 
       - title: Custom Databases
@@ -1261,7 +1261,7 @@ articles:
 
   - title: "Product Lifecycle"
     url: "/product-lifecycle"
-    children:        
+    children:
       - title: "Overview"
         url: "/product-lifecycle"
 
@@ -1470,10 +1470,10 @@ articles:
 
   #     - title: Overview
   #       url: /about-auth0/overview
-      
+
   #     - title: The Basics
   #       url: /about-auth0/the-basics
-      
+
   #     - title: Auth0 & Data Privacy
   #       url: /about-auth0/auth0-and-data-privacy
 
@@ -1730,3 +1730,58 @@ videos:
 
       - title: "Logout"
         url: "/videos/get-started/10-logout"
+
+## ------------------------------------------------------------
+## Identity Labs
+## ------------------------------------------------------------
+
+identity-labs:
+  - title: Digital Identity Labs
+    url: "/identity-labs"
+    children:
+
+      - title: "Lab 1: Web Sign-In"
+        url: "/identity-labs/01-web-sign-in"
+        children:
+
+          - title: "Exercise 1"
+            url: "/identity-labs/01-web-sign-in/exercise-01"
+
+          - title: "Exercise 2"
+            url: "/identity-labs/01-web-sign-in/exercise-02"
+
+      - title: "Lab 2: Calling an API"
+        url: "/identity-labs/02-calling-an-api"
+        children:
+
+          - title: "Exercise 1"
+            url: "/identity-labs/02-calling-an-api/exercise-01"
+
+          - title: "Exercise 2"
+            url: "/identity-labs/02-calling-an-api/exercise-02"
+
+          - title: "Exercise 3"
+            url: "/identity-labs/02-calling-an-api/exercise-03"
+
+      - title: "Lab 3: Mobile Native App"
+        url: "/identity-labs/03-mobile-native-app"
+        children:
+
+          - title: "Exercise 1"
+            url: "/identity-labs/03-mobile-native-app/exercise-01"
+
+          - title: "Exercise 2"
+            url: "/identity-labs/03-mobile-native-app/exercise-02"
+
+          - title: "Exercise 3"
+            url: "/identity-labs/03-mobile-native-app/exercise-03"
+
+      - title: "Lab 4: Single Page App"
+        url: "/identity-labs/04-single-page-app"
+        children:
+
+          - title: "Exercise 1"
+            url: "/identity-labs/04-single-page-app/exercise-01"
+
+          - title: "Exercise 2"
+            url: "/identity-labs/04-single-page-app/exercise-02"
